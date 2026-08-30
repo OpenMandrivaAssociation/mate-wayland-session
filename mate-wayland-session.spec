@@ -27,10 +27,11 @@ Wayland session using wayfire for the MATE desktop.
 %install
 %meson_install
 
-%find_lang %{name}
+#find_lang %{name}
 
 
-%files -f %{name}.lang
+%files 
+#-f %{name}.lang
 %doc README.md NEWS
 %license LICENSE
 %{_bindir}/mate-wayland*
