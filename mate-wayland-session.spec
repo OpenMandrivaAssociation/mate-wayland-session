@@ -33,9 +33,9 @@ Wayland session using wayfire for the MATE desktop.
 %files 
 #-f %{name}.lang
 %doc README.md NEWS
-%license LICENSE
+#license LICENSE
 %{_bindir}/mate-wayland*
-%{_datadir}/firedecor
+#{_datadir}/firedecor
 %{_datadir}/glib-2.0/schemas/10_mate-wayland.gschema.override
 %dir %{_datadir}/wayland-sessions
 %{_datadir}/wayland-sessions/MATE.desktop
